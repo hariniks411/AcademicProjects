@@ -1,0 +1,40 @@
+TRAVEL AGENCY MANAGEMENT SYSTEM:
+2 MODULES :
+1.	TRAVEL AGENCY
+2.	CUSTOMER
+2. CUSTOMER:
+•	Source, destination, bus timings & bus fare are displayed. 
+•	Age based concessions are provided (1-12 and >70  Half of the bus fare)
+•	Concept of Exception Handling is used to validate input data.
+•	All the input data are stored in binary file. 
+•	FUNCTIONALITIES:
+	bookTickets():
+o	INPUTS  Customer name, bus id, trip date, number of passengers, age of  those  passengers.
+o	OUTPUTTicket amount is displayed.
+	checkTicketAvailability():
+o	INPUTSBus id, date
+o	OUTPUTSeat availability for the specified bus on the specified date is displayed.
+	showBusDetails()
+1.TRAVEL AGENCY:
+•	Password should be entered.
+•	FUNCTIONALITIES:
+	addBus():
+o	INPUTSbus id, source, destination, timings, maximum seats.
+o	 A new bus will be added.
+	displayCustomerHistory():
+o	a. The recent history is displayed.
+o	b. The history of customers based on bus id is displayed.
+	editBusDetails():
+o	Enter the bus id.
+o	INPUTSbus id, source, destination, timings, maximum seats.
+o	The bus details will be modified.
+
+CONCEPTS USED:	
+	Encapsulation
+	Polymorphism(Function overloading)
+	Exception handling
+	Friend functions
+	Composition(Bus Has TripBooking)
+	Data structure used: Arrays
+	Searching technique: Binary search
+	Sorting technique: Selection sort
